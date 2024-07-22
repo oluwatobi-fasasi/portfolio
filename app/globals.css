@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.mobileNav {
+  @apply py-6 text-base uppercase font-semibold;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

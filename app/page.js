@@ -1,11 +1,18 @@
+import About from "@/components/About";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Works from "@/components/Works";
 import Image from "next/image";
 
 export default function Home() {
   return (
 
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main>
+      <Navbar />
+      <Hero />
+      {/* <About /> */}
+      {/* <Works /> */}
+    </main>
 
   );
 }
